@@ -20,7 +20,11 @@ consoleInput.addEventListener("keydown", async function(event) {
 
         // THEN check keyword
         if (text.includes("Noelle")) {
-            await typeLine("THE FORBIDDEN PATH STARTED WITH ICE MAGIC", { color: "#7dd3ff" });
+            await typeLine("> THE FORBIDDEN PATH STARTED WITH ICE MAGIC", { color: "#7dd3ff" });
+        }
+
+        if (text.includes("Bas")) {
+            await typeLine("> Heyyyyyy<3 :)))", { color: "#ee82ee" });
         }
     }
 
