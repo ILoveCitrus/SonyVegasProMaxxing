@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Lobster 1.4";
+    src: url("fonts/Lobster 1.4.otf")
+}
+
+@font-face {
+    font-family: "ari-w9500";
+    src: url("fonts/ari-w9500.ttf");
+}
+
+body {
+    background-color:aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.title {
+    font-family: "Lobster 1.4";
+    text-align: center;
+    font-size: 48px;
+}
+
+.pixelbutton {
+    font-family: "ari-w9500";
+    font-size: 24px;
+}
+
+
+
+.keygen-page {
+    background-color: mediumaquamarine;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-gif {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+}
+
+
+.textAdventure-page {
+    background-color:black;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+}
+
+.consoleWindow {
+    width: 700px;
+    height: 400px;
+
+    background-color: black;
+    border: 2px solid #ffffff;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 0 20px #ffffff;
+}
+
+.consoleHeader {
+    padding: 10px;
+
+    background-color: #808080;
+    color: #ffffff;
+
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.consoleOutput {
+    flex: 1;
+
+    padding: 15px;
+
+    color: #808080;
+
+    font-family: monospace;
+    font-size: 18px;
+
+    overflow-y: auto;
+}
+
+.consoleInput {
+    background-color: #202020;
+    color: #ffffff;
+
+    border: none;
+    outline: none;
+
+    padding: 5px 10px;
+
+    font-family: monospace;
+    font-size: 18px;
+}
